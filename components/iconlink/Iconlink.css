@@ -1,0 +1,41 @@
+.icon {
+  background: transparent;
+  height: 12vh;
+  /* border: 1px solid black; */
+  min-width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon-img {
+  width: 30px;
+  height: auto;
+}
+
+.icon p {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.active {
+  border-right: 2px solid #665dc3;
+  margin-right: 1.2px;
+  background: #17171e;
+}
+
+@media (max-width: 500px) {
+  .icon {
+    background-color: #17171e;
+  }
+
+  .active {
+    border: 2px solid #665dc3;
+  }
+
+  .btn {
+    background-color: #1f1f28;
+  }
+}
