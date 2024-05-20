@@ -1,0 +1,31 @@
+.audio-editor {
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.waveform {
+  margin-bottom: 20px;
+}
+
+.audio-editor button {
+  background-color: #3b8686;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+button:hover {
+  background-color: #2c6666;
+}

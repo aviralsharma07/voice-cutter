@@ -21,6 +21,19 @@ body {
   width: 93vw;
 }
 
+.audio-editor-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
 .right-up {
   /* border: 3px solid brown; */
   height: 100vh;
@@ -97,6 +110,16 @@ section h2 {
 .description {
   font-size: 1.2rem;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: #1f1f28;
+  border: 2px solid #665dc3;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 5px;
 }
 
 @media (max-width: 500px) {
