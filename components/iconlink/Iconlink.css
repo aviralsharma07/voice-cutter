@@ -28,7 +28,7 @@
 
 @media (max-width: 500px) {
   .icon {
-    background-color: #17171e;
+    background-color: #1f1f28;
   }
 
   .active {
@@ -36,6 +36,6 @@
   }
 
   .btn {
-    background-color: #1f1f28;
+    background-color: #17171e;
   }
 }

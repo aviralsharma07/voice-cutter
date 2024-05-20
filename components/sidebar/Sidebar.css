@@ -67,12 +67,9 @@
 
 @media (max-width: 500px) {
   .navbar {
-    /* position: fixed;
-    top: 0;
-    left: 0; */
     height: 100%;
-    width: 95vw;
-    /* background: lightpink; */
+    width: 100vw;
+    background-color: #17171e;
     /* border: 1px solid red; */
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -89,9 +86,10 @@
   }
 
   .middle {
+    padding: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
     order: 2;
   }
 
